@@ -1,10 +1,9 @@
 package Cars;
 
-import Interfaces.IGasStation;
-import Interfaces.ISweepingStreet;
+import Interfaces.*;
 
 /** Класс Toyota с возможностью подметать улицы */
-public class Toyota extends Car implements ISweepingStreet, IGasStation {
+public class Toyota extends Car implements ISweepingStreet, IGasStation, ICleaningLights, ICleaningMirrors, ICleaningWindshield {
 
     /**
      * Конструктор класса Toyota
