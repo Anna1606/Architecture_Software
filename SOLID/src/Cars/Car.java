@@ -67,11 +67,4 @@ public abstract class Car {
     protected void onWipers(){
         // здесь способ включения дворников
     }
-    protected void fogLampsON(){
-        // включение противотуманных ламп
-    }
-    protected void Shipping (String bodyType){
-        this.bodyType = bodyType;
-        // перевозка грузов
-    }
 }

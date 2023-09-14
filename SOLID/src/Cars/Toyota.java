@@ -1,6 +1,9 @@
 package Cars;
+
+import Interfaces.ISweepingStreet;
+
 /** Класс Toyota с возможностью подметать улицы */
-public class Toyota extends Car implements ISweepingStreet{
+public class Toyota extends Car implements ISweepingStreet {
 
     /**
      * Конструктор класса Toyota
