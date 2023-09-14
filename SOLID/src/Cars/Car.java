@@ -67,7 +67,5 @@ public abstract class Car {
     protected void onWipers(){
         // здесь способ включения дворников
     }
-    protected void sweepingTheStreet(){
-        // подметать улицы
-    }
+
 }

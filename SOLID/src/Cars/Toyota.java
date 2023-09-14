@@ -1,6 +1,6 @@
 package Cars;
-
-public class Toyota extends Car{
+/** Класс Toyota с возможностью подметать улицы */
+public class Toyota extends Car implements ISweepingStreet{
 
     /**
      * Конструктор класса Toyota
@@ -14,5 +14,10 @@ public class Toyota extends Car{
      */
     public Toyota(String model, String exteriorColor, String bodyType, int wheelsCount, String fuelType, String gearboxType, int engine) {
         super("Toyota", model, exteriorColor, bodyType, wheelsCount, fuelType, gearboxType, engine);
+    }
+
+    @Override
+    public void sweepingTheStreet() {
+        // подметать улицы
     }
 }
