@@ -20,6 +20,7 @@ public class FlyMobil extends Car{
 
     @Override
     protected void drive(String gearboxType) {
+        this.gearboxType = gearboxType;
         System.out.println("Эта машина умеет летать, но не умеет ехать");
     }
 }

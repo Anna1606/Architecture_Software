@@ -1,9 +1,10 @@
 package Cars;
 
+import Interfaces.IGasStation;
 import Interfaces.ISweepingStreet;
 
 /** Класс Toyota с возможностью подметать улицы */
-public class Toyota extends Car implements ISweepingStreet {
+public class Toyota extends Car implements ISweepingStreet, IGasStation {
 
     /**
      * Конструктор класса Toyota
@@ -22,5 +23,11 @@ public class Toyota extends Car implements ISweepingStreet {
     @Override
     public void sweepingTheStreet() {
         // подметать улицы
+    }
+
+    @Override
+    public void fueling(String fuelType) {
+        this.fuelType = fuelType;
+        // здесь будет код заправки машины
     }
 }
