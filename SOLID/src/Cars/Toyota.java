@@ -30,4 +30,19 @@ public class Toyota extends Car implements ISweepingStreet, IGasStation {
         this.fuelType = fuelType;
         // здесь будет код заправки машины
     }
+
+    @Override
+    public void cleaningWindshield() {
+        // здесь будет код метода протирки лобового стекла
+    }
+
+    @Override
+    public void cleaningLights() {
+        // здесь будет код метода протирки фар
+    }
+
+    @Override
+    public void cleaningMirrors() {
+        // здесь будет код метода протирки зеркал
+    }
 }
