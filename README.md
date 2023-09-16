@@ -4,3 +4,5 @@
 * folder [Editor3D](https://github.com/Anna1606/Architecture_Software/tree/master/Editor3D)
 ## Урок 2. Объектно-ориентированные паттерны
 * folder [Patterns](https://github.com/Anna1606/Architecture_Software/tree/master/Patterns)
+## Урок 3. Принципы SOLID
+* folder [SOLID](https://github.com/Anna1606/Architecture_Software/tree/master/SOLID)

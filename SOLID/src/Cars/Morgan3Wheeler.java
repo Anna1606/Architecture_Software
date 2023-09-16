@@ -1,19 +1,26 @@
 package Cars;
 
-public class Morgan3Wheeler extends Car{
+import Interfaces.IGasStation;
+
+public class Morgan3Wheeler extends Car implements IGasStation {
+
 
     /**
-     * Конструктор класса Car
+     * Конструктор класса Morgan3Wheeler c бензиновым двигателем
      *
      * @param brand         марка
      * @param model         модель
      * @param exteriorColor цвет кузова
      * @param bodyType      тип кузова
-     * @param fuelType      тип топлива
      * @param gearboxType   тип коробки передач
      * @param engine        объем двигателя
      */
-    public Morgan3Wheeler(String brand, String model, String exteriorColor, String bodyType, String fuelType, String gearboxType, int engine) {
-        super(brand, model, exteriorColor, bodyType, 3, fuelType, gearboxType, engine);
+    public Morgan3Wheeler(String brand, String model, String exteriorColor, String bodyType, String gearboxType, double engine) {
+        super(brand, model, exteriorColor, bodyType, 3, "petrol", gearboxType, engine);
+    }
+
+    @Override
+    public void fueling() {
+        System.out.println("заправка бензиновым топливом");
     }
 }

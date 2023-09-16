@@ -2,32 +2,29 @@ package Cars;
 
 import Interfaces.*;
 
-/** Класс Toyota с возможностью подметать улицы */
+/**
+ * Класс Toyota с возможностью подметать улицы
+ */
 public class Toyota extends Car implements ISweepingStreet, IGasStation, ICleaningLights, ICleaningMirrors, ICleaningWindshield {
 
     /**
      * Конструктор класса Toyota
+     *
      * @param model         модель
      * @param exteriorColor цвет кузова
      * @param bodyType      тип кузова
      * @param wheelsCount   число колес
-     * @param fuelType      тип топлива
      * @param gearboxType   тип коробки передач
      * @param engine        объем двигателя
      */
-    public Toyota(String model, String exteriorColor, String bodyType, int wheelsCount, String fuelType, String gearboxType, int engine) {
-        super("Toyota", model, exteriorColor, bodyType, wheelsCount, fuelType, gearboxType, engine);
+    public Toyota(String model, String exteriorColor, String bodyType, int wheelsCount, String gearboxType, double engine) {
+        super("Toyota", model, exteriorColor, bodyType, wheelsCount, "diesel", gearboxType, engine);
     }
 
     @Override
     public void sweepingTheStreet() {
         // подметать улицы
-    }
-
-    @Override
-    public void fueling(String fuelType) {
-        this.fuelType = fuelType;
-        // здесь будет код заправки машины
+        System.out.println("начать уборку");
     }
 
     @Override
@@ -43,5 +40,10 @@ public class Toyota extends Car implements ISweepingStreet, IGasStation, ICleani
     @Override
     public void cleaningMirrors() {
         // здесь будет код метода протирки зеркал
+    }
+
+    @Override
+    public void fueling() {
+        System.out.println("заправка дизельным топливом");
     }
 }

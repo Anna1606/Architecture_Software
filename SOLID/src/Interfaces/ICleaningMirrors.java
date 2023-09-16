@@ -1,5 +1,8 @@
 package Interfaces;
-/** Протирка зеркал*/
+
+/**
+ * Протирка зеркал
+ */
 public interface ICleaningMirrors {
     void cleaningMirrors();
 }

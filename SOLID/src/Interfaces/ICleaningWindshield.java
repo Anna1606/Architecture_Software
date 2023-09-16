@@ -1,5 +1,8 @@
 package Interfaces;
-/** Протирка лобового стекла */
+
+/**
+ * Протирка лобового стекла
+ */
 public interface ICleaningWindshield {
     void cleaningWindshield();
 }

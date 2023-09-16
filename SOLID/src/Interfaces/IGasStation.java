@@ -1,9 +1,15 @@
 package Interfaces;
-/** Заправочная станция */
+
+/**
+ * Заправочная станция
+ */
 public interface IGasStation {
     /**
      * Метод заправки топливом
-     * @param fuelType тип топлива
      */
-    void fueling(String fuelType);
+    void fueling();
+
+//    void cleaningLights();
+//    void cleaningMirrors();
+//    void cleaningWindshield();
 }

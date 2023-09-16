@@ -1,30 +1,49 @@
 package Cars;
 
-/** абстрактный класс «Car» у которого должны быть свойства:
+/**
+ * абстрактный класс «Car» у которого должны быть свойства:
  * марка, модель, цвет, тип кузова, число колёс, тип топлива, тип коробки передач, объём двигателя;
  * методы:
- * движение, обслуживание, переключение передач, включение фар, включение дворников */
+ * движение, обслуживание, переключение передач, включение фар, включение дворников
+ */
 
 public abstract class Car {
-    /** марка машины*/
+    /**
+     * марка машины
+     */
     protected String brand;
-    /** модель машины */
+    /**
+     * модель машины
+     */
     protected String model;
-    /** цвет кузова */
+    /**
+     * цвет кузова
+     */
     protected String exteriorColor;
-    /** тип кузова */
+    /**
+     * тип кузова
+     */
     protected String bodyType;
-    /** число колёс */
+    /**
+     * число колёс
+     */
     protected int wheelsCount;
-    /** тип топлива */
+    /**
+     * тип топлива
+     */
     protected String fuelType;
-    /** тип коробки передач */
+    /**
+     * тип коробки передач
+     */
     protected String gearboxType;
-    /** объём двигателя */
-    protected int engine;
+    /**
+     * объём двигателя
+     */
+    protected double engine;
 
     /**
      * Конструктор класса Car
+     *
      * @param brand         марка
      * @param model         модель
      * @param exteriorColor цвет кузова
@@ -36,7 +55,7 @@ public abstract class Car {
      */
     public Car(String brand, String model, String exteriorColor,
                String bodyType, int wheelsCount, String fuelType,
-               String gearboxType, int engine) {
+               String gearboxType, double engine) {
         this.brand = brand;
         this.model = model;
         this.exteriorColor = exteriorColor;
@@ -47,24 +66,45 @@ public abstract class Car {
         this.engine = engine;
     }
 
+    public String getFuelType() {
+        return fuelType;
+    }
+
     /**
      * Приведение машины в движение
+     *
      * @param gearboxType тип коробки передач
      */
-    protected void drive(String gearboxType){
-        this.gearboxType = gearboxType;
-        System.out.println("Car is driving");
+    public void drive(String gearboxType) {
+        System.out.println("Car is driving on the road");
     }
-    protected void service(){
+
+    public void service() {
         // здесь какой-то способ обслуживания автомобиля
+        System.out.println("отправить машину в сервис");
     }
-    protected void shifting(String gearboxType){
+
+    public void shifting() {
         // здесь способ переключения передач автомобиля
+        System.out.println("переключить передачу");
     }
-    protected void onHeadlights(){
+
+    public void onHeadlights() {
         // здесь способ включения фар
+        System.out.println("включить фары");
     }
-    protected void onWipers(){
+
+    public void onWipers() {
         // здесь способ включения дворников
+        System.out.println("включить дворники");
+    }
+
+    public void shipping() {
+        // Возможность перевозки грузов
+        System.out.println("Возможность перевозки грузов");
+    }
+    public void fogLampsON() {
+        //  Возможность включения противотуманных фар
+        System.out.println("Возможность включения противотуманных фар");
     }
 }

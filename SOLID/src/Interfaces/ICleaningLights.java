@@ -1,5 +1,8 @@
 package Interfaces;
-/** Протирка фар */
+
+/**
+ * Протирка фар
+ */
 public interface ICleaningLights {
     void cleaningLights();
 }
