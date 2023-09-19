@@ -6,3 +6,5 @@
 * folder [Patterns](https://github.com/Anna1606/Architecture_Software/tree/master/Patterns)
 ## Урок 3. Принципы SOLID
 * folder [SOLID](https://github.com/Anna1606/Architecture_Software/tree/master/SOLID)
+## Урок 4. Компоненты. Принципы связности и сочетаемости компонентов
+* folder [GeometricShapes](https://github.com/Anna1606/Architecture_Software/tree/master/GeometricShapes)
