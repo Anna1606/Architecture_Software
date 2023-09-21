@@ -8,3 +8,4 @@
 * folder [SOLID](https://github.com/Anna1606/Architecture_Software/tree/master/SOLID)
 ## Урок 4. Компоненты. Принципы связности и сочетаемости компонентов
 * folder [GeometricShapes](https://github.com/Anna1606/Architecture_Software/tree/master/GeometricShapes)
+* folder [TicketService](https://github.com/Anna1606/Architecture_Software/tree/master/TicketService)
