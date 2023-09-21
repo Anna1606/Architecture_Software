@@ -1,0 +1,24 @@
+package Models;
+
+/**
+ * Модель перевозчика
+ */
+public class Carrier {
+    private int id;
+    private int zones;
+    private long cardNumber;
+
+    public Carrier(int id, long cardNumber) {
+        this.id = id;
+        this.cardNumber = cardNumber;
+    }
+
+    public long getId() {
+        return this.id;
+    }
+
+    public long getCardNumber() {
+        return this.cardNumber;
+    }
+
+}
