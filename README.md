@@ -10,3 +10,4 @@
 * folder [GeometricShapes](https://github.com/Anna1606/Architecture_Software/tree/master/GeometricShapes)
 * folder [TicketService](https://github.com/Anna1606/Architecture_Software/tree/master/TicketService)
 ## Урок 5. Горизонтальные уровни и вертикальные срезы архитектуры
+* folder [Navigator](https://github.com/Anna1606/Architecture_Software/tree/master/Navigator)
