@@ -1,0 +1,7 @@
+package DataLevel;
+
+/**
+ * Интерфейс отвечает за получение данных о пробках и их обработку в сетевом контроллере
+ */
+public interface ICurrentTrafficRepository {
+}
