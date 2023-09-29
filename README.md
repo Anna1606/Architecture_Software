@@ -13,3 +13,5 @@
 * folder [Navigator](https://github.com/Anna1606/Architecture_Software/tree/master/Navigator)
 ## Урок 6. Принципы построения приложений «чистая архитектура»
 * folder [CleanArchitecture](https://github.com/Anna1606/Architecture_Software/tree/master/CleanArchitecture)
+## Урок 7. Типа архитектур WEB-приложений: MPA, SPA
+* folder [ReportingService](https://github.com/Anna1606/Architecture_Software/tree/master/ReportingService)
