@@ -15,3 +15,5 @@
 * folder [CleanArchitecture](https://github.com/Anna1606/Architecture_Software/tree/master/CleanArchitecture)
 ## Урок 7. Типа архитектур WEB-приложений: MPA, SPA
 * folder [ReportingService](https://github.com/Anna1606/Architecture_Software/tree/master/ReportingService)
+## Урок 8. Типы архитектур прикладных приложений (мобильные): MVC, MVP, MVVM.
+* folder [BookingTable](https://github.com/Anna1606/Architecture_Software/tree/master/BookingTable)
