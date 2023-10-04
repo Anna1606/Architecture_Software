@@ -17,3 +17,5 @@
 * folder [ReportingService](https://github.com/Anna1606/Architecture_Software/tree/master/ReportingService)
 ## Урок 8. Типы архитектур прикладных приложений (мобильные): MVC, MVP, MVVM.
 * folder [BookingTable](https://github.com/Anna1606/Architecture_Software/tree/master/BookingTable)
+## Урок 9. Способы организации передачи данных между компонентами приложения, протоколы и API. REST, gRPC, очереди
+* folder [APIForCloudService](https://github.com/Anna1606/Architecture_Software/tree/master/APIForCloudService)
