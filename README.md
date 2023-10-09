@@ -19,3 +19,5 @@
 * folder [BookingTable](https://github.com/Anna1606/Architecture_Software/tree/master/BookingTable)
 ## Урок 9. Способы организации передачи данных между компонентами приложения, протоколы и API. REST, gRPC, очереди
 * folder [APIForCloudService](https://github.com/Anna1606/Architecture_Software/tree/master/APIForCloudService)
+## Урок 10. Структура приложения с пользовательским интерфейсом и базой данных (паттерн Repository)
+* folder [Diagrams](https://github.com/Anna1606/Architecture_Software/tree/master/MessangerApp/Diagrams)
