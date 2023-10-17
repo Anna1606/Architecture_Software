@@ -21,3 +21,7 @@
 * folder [APIForCloudService](https://github.com/Anna1606/Architecture_Software/tree/master/APIForCloudService)
 ## Урок 10. Структура приложения с пользовательским интерфейсом и базой данных (паттерн Repository)
 * folder [Diagrams](https://github.com/Anna1606/Architecture_Software/tree/master/MessangerApp/Diagrams)
+## Урок 11. Сервис-ориентированные архитектуры
+* folder [MessangerApp](https://github.com/Anna1606/Architecture_Software/tree/master/MessangerApp/App/main)
+## Урок 12. Принципы тестирования приложений
+* folder [test](https://github.com/Anna1606/Architecture_Software/tree/master/MessangerApp/App/test/java/ru/anna_corp/services)
